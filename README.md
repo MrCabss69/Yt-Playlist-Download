@@ -1,44 +1,44 @@
 # Youtube Playlist Downloader
 
-Este proyecto permite descargar canciones de listas de reproducción **públicas** de YouTube en formato MP3 y guardarlas en una carpeta local. Utiliza la biblioteca `pytube` para la descarga y `moviepy` para la conversión de formato.
+This project allows you to download songs from **public** YouTube playlists in MP3 format and save them to a local folder. It uses the `pytube` library for downloading and `moviepy` for format conversion.
 
-## Requisitos
+##Requirements
 
-Antes de comenzar, asegúrate de tener Python instalado en tu sistema. Además, necesitarás instalar las siguientes bibliotecas:
+Before you begin, make sure you have Python installed on your system. Additionally, you will need to install the following libraries:
 
 - pytube
-- moviepy
+- movie
 
-Puedes instalar estas dependencias con el siguiente comando:
+You can install these dependencies with the following command:
 
-```bash
+```tap
 pip install pytube moviepy
 ```
 
-Por último, navega hasta la lista de reproducción que desees descargar, y copia el id de la playlist que deseas descargar (lo que aparece a la derecha de list=)
+Finally, navigate to the playlist you want to download, and copy the id of the playlist you want to download (what appears to the right of list=)
 
 
 
 
-## Uso
+## Use
 
-Para utilizar este script, sigue los siguientes pasos:
+To use this script, follow these steps:
 
-1. Clona este repositorio en local.
+1. Clone this repository locally.
 
-2. Abre una terminal o línea de comandos.
+2. Open a terminal or command line.
 
-3. Navega hasta el directorio donde se encuentra el script.
+3. Navigate to the directory where the script is located.
 
-4. Ejecuta el script con el ID de la lista de reproducción de YouTube como argumento: 
+4. Run the script with the YouTube playlist ID as an argument:
 
-```bash 
+```tap
 python3 download_playlist.py playlist_id --output output_directory
 ```
 
-Reemplaza `[ID de la lista de reproducción]` con el ID real de la lista de reproducción de YouTube que deseas descargar.
+Replace `[playlist ID]` with the actual ID of the YouTube playlist you want to download.
 
-## Ejemplo
-```bash
+## Example
+```tap
 python3 download_playlist.py playlist_id --output output_directory
 ```
